@@ -1,4 +1,6 @@
-# Variant Growth Rate Estimation using Bayesian Multinomial Model
+# variant monitoring システム（講義用）
+
+https://colab.research.google.com/drive/1I43ZUDUB3bDpNFherHSWEGZMeqWCsqoS?usp=sharing
 
 SARS-CoV-2などのウイルス変異株の**相対成長率**をベイズ多項ロジスティック回帰モデル（Stan / CmdStan）で推定するGoogle Colabノートブックです。
 
@@ -10,20 +12,20 @@ SARS-CoV-2などのウイルス変異株の**相対成長率**をベイズ多項
 
 ---
 
-## 必要な入力ファイル
+## Colab上で必要な入力ファイル
 
 以下のファイルはノートブック実行時に GitHub から自動ダウンロードされます。
 
 | ファイル名 | 内容 |
 |---|---|
-| `input.zip` | ゲノムメタデータ（主要データ） |
-| `input2.zip` | 補足メタデータ |
+| `input.zip` | メタデータ前半* |
+| `input2.zip` | メタデータ後半* |
 | `multinomial_independent.ver2.stan` | Stan モデルファイル |
 
 メタデータファイル（`.txt`）はタブ区切りで、少なくとも以下のカラムが必要です：
 
 - `Nextclade_pango` : Pango lineage（例：`XBB.1.5`）
-- `date` : サンプリング日（例：`2024-01-15`）
+- `date` : サンプリング日（例：`2024-01-01`）
 - `pango_lineage` : Pango lineage（フィルタリング用）
 
 ---
