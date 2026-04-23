@@ -172,8 +172,3 @@ fit.stan <- multi_nomial_model$sample(
 | ggplot2 | ≥ 3.4 |
 | httr | ≥ 1.4 |
 
----
-
-## ライセンス
-
-このリポジトリのライセンスについては [LICENSE](LICENSE) を参照してください。
