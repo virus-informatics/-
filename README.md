@@ -141,10 +141,11 @@ fit.stan <- multi_nomial_model$sample(
 
 ## 実行方法
 
-1. https://colab.research.google.com/drive/1I43ZUDUB3bDpNFherHSWEGZMeqWCsqoS?usp=sharing　ノートブックをGoogle Colabで開く
-2. **Cell 3** の `metadata.name.usa` を解析したいファイル名に変更する
-3. 上から順にすべてのセルを実行する（`ランタイム` → `すべてのセルを実行`）
-4. `/content/output/` フォルダに結果が保存される
+1. https://colab.research.google.com/drive/1I43ZUDUB3bDpNFherHSWEGZMeqWCsqoS?usp=sharing
+   ノートブックをGoogle Colabで開く
+3. **Cell 3** の `metadata.name.usa` を解析したいファイル名に変更する
+4. 上から順にすべてのセルを実行する（`ランタイム` → `すべてのセルを実行`）
+5. `/content/output/` フォルダに結果が保存される
 
 ---
 
